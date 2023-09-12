@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+  <!-- Define Persistence Unit -->
+  <persistence-unit name="my_persistence_unit">
+    <class>com.lmd.pojo.Coupon</class>
+    <class>com.lmd.pojo.Follow</class>
+    <class>com.lmd.pojo.CommentsFood</class>
+    <class>com.lmd.pojo.Foods</class>
+    <class>com.lmd.pojo.Users</class>
+    <class>com.lmd.pojo.Restaurants</class>
+    <class>com.lmd.pojo.CommentRestaurant</class>
+    <class>com.lmd.pojo.Orders</class>
+    <class>com.lmd.pojo.OrderDetail</class>
+    <class>com.lmd.pojo.Restaurant</class>
+    <class>com.lmd.pojo.Food</class>
+    <class>com.lmd.pojo.User</class>
+    <class>com.lmd.pojo.Order</class>
+    <class>com.lmd.pojo.Orderfood</class>
+  </persistence-unit>
+</persistence>
